@@ -18,9 +18,9 @@ interface ContactSectionProps {
 
 const ContactSection: React.FC<ContactSectionProps> = ({ formData, handleInputChange, handleSubmit }) => {
   const contactInfo = [
-    { icon: "📱", title: "Phone", content: "[PHONE NUMBER]" },
-    { icon: "✉️", title: "Email", content: "[EMAIL ADDRESS]" },
-    { icon: "📍", title: "Address", content: "[BUSINESS ADDRESS]" },
+    { icon: "📱", title: "Phone", content: "8106667600" },
+    { icon: "✉️", title: "Email", content: "" },
+    { icon: "📍", title: "Address", content: "Hyderabad | Bangalore | Pune | Vijayawada | Vizag" },
     { icon: "🕐", title: "Working Hours", content: "Mon-Sat: 9:00 AM - 6:00 PM" }
   ];
 
