@@ -8,7 +8,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollToSection }) => {
   return (
     < >
     <section id="home" className="pt-16 min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-500/90 via-purple-400/90 to-indigo-200/90"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-800/90 via-purple-400/90 to-indigo-200/90"></div>
       <div className="absolute  w-full h-full bg-no-repeat bg-cover bg-center bg-[url(https://www.balconysafetynetbangalore.co.in/wp-content/uploads/2023/01/durga-children-safety-nets-in-bangalore-chennai-hyderabad-pune-e1688736779270.jpg)] opacity-20"></div>
       
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">

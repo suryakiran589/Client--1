@@ -5,6 +5,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection';
+import GallerySection from './components/GallerySection';
 
 interface ContactFormData {
   name: string;
@@ -24,6 +25,7 @@ interface ContactItemProps {
 
 function App() {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
+   const images = ["https://i.postimg.cc/pTp2Z236/net-3.jpg","https://i.postimg.cc/YSTP5MhV/hangers-2.webp","https://i.postimg.cc/gJPDyJwY/hanger-2.jpg","https://i.postimg.cc/ZYHc3JJS/Ceiling-cloth-Hanger-3.webp","https://i.postimg.cc/BQQ9trLt/grill-1.jpg","https://i.postimg.cc/gkSbM9H9/background.webp"]
   const [formData, setFormData] = useState<ContactFormData>({
     name: '',
     phone: '',
@@ -77,6 +79,7 @@ function App() {
       />
       <HeroSection scrollToSection = {scrollToSection}/>
       <ServicesSection />   
+      <GallerySection images={images}/>
       <ContactSection
         formData={formData}
         handleInputChange={handleInputChange}
