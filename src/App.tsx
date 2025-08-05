@@ -17,11 +17,11 @@ interface ContactFormData {
 
 
 
-interface ContactItemProps {
-  icon: React.ReactNode;
-  title: string;
-  content: string;
-}
+// interface ContactItemProps {
+//   icon: React.ReactNode;
+//   title: string;
+//   content: string;
+// }
 
 function App() {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
