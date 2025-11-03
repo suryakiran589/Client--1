@@ -78,13 +78,13 @@ function App() {
         scrollToSection={scrollToSection}
       />
       <HeroSection scrollToSection = {scrollToSection}/>
-      <ServicesSection />   
-      <GallerySection images={images}/>
       <ContactSection
         formData={formData}
         handleInputChange={handleInputChange}
         handleSubmit={handleSubmit}
       />
+      <ServicesSection />   
+      <GallerySection images={images}/>
     </>
   )
 
